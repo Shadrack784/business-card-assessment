@@ -1,5 +1,17 @@
 /* General styles - put these straight into your stylesheet */
 
+
+/*00011 specificity for .card header*/
+
+
+/*00012 specificity for .card article img*/
+
+
+/*00010 specificity for .card*/
+
+
+/*00011 specificity for .card footer*/
+
 body {
     margin: 0;
 }
@@ -20,7 +32,7 @@ html {
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-colour: red;
+    background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
 }
@@ -31,8 +43,8 @@ img {
 }
 
 .card header {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
-    border-radius: 1.5em 1.5em 0 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    border-radius: 0 0 1.5em 1.5em;
     height: 50px;
     line-height: 10px;
     padding: 10px;
@@ -44,8 +56,8 @@ img {
 }
 
 .card footer {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
-    border-radius: 0 0 1.5em 1.5em;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    border-radius: 1.5em 1.5em 0 0;
     height: 50px;
     line-height: 10px;
     padding: 10px;
